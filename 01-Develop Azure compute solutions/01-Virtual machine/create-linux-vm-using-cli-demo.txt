@@ -1,0 +1,5 @@
+-- commands to create linux vm:
+
+az-login
+
+az group create --name rg
