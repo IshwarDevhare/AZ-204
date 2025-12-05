@@ -2,4 +2,5 @@
 
 az-login
 
-az group create --name rg
+az group create --name mkdemo0101 --location centralindia
+
