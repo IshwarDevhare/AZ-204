@@ -1,0 +1,80 @@
+# Demo and temporary directories
+# Ignore demo directories but not library demos
+*[0-9]-demo/
+08-demo/
+09-demo/
+10-demo/
+07-download/
+artifacts/
+
+# Docker build context and temp files
+.dockerignore
+*.tar.gz
+build_archive_*.tar.gz
+
+# Container and image files
+*.log
+*.pid
+
+# Node.js dependencies (if cloning samples)
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Python virtual environments (if using)
+venv/
+.env
+__pycache__/
+*.pyc
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Azure and credentials
+*.env
+.azure/
+*.pem
+*.key
+*.crt
+
+# .NET build artifacts
+bin/
+obj/
+*.pdb
+*.dll
+*.exe
+*.cache
+*.AssemblyInfo.cs
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.GlobalUsings.g.cs
+*.deps.json
+*.runtimeconfig.json
+*.nuget.*
+
+# Compiled files
+*.so
+*.dylib
+
+# Test and coverage
+coverage/
+*.test
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Git files
+*.orig
+*.rej
