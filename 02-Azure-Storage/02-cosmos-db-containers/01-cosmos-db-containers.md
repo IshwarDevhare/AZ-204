@@ -1,0 +1,1 @@
+Azure Cosmos DB containers are a key feature in Cosmos DB, enabling you to store and manage data in the cloud.
